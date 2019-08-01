@@ -1,0 +1,21 @@
+#postList {
+  background-color: #2f3136;
+  color: #f0f0f0;
+  height: 100%;
+  background-color: #36393f;
+  overflow: auto;
+}
+
+.post {
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#postList::-webkit-scrollbar-track {
+  background-color: #2f3136;
+}
+
+#postList::-webkit-scrollbar-thumb {
+  height: 30px;
+  background-color: #202225;
+}
