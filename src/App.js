@@ -1,6 +1,7 @@
 import React from 'react';
 import Search from './components/Search/Search';
 import PostList from './components/Post/PostList';
+import WordTable from './components/WordTable';
 import './App.css';
 import { connect } from 'react-redux';
 import { setSearchedUser, requestPosts, requestUsers, setUserId } from './actions';
@@ -36,6 +37,7 @@ class App extends React.Component {
         </div>
         <div className="row post-list-row">
           <PostList {...this.props}/>
+          <WordTable {...this.props}/>
         </div>
       </div>
 

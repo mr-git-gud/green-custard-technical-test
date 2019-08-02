@@ -1,0 +1,7 @@
+.word-table-container {
+  height: 300px;
+  background-color: #36393f;
+  overflow: auto;
+  background-color: #2f3136;
+  color: #f0f0f0;
+}
